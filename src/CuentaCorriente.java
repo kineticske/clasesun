@@ -7,9 +7,16 @@ public class CuentaCorriente {
 
     public CuentaCorriente(String nombreC){
         this.nombre=nombreC;
-        
+
     }
-    //metodos
+
+    //metodo retornando valor (sin void)
+
+    public boolean SolicitarPedido(){
+        return true;
+    }
+
+    //metodos sin retornar valor
     public void depositar(){
         System.out.println("Depositar");
     }
